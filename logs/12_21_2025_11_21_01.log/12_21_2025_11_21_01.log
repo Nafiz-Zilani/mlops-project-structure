@@ -1,0 +1,12 @@
+[ 2025-12-21 11:21:01,020 ] 25 root - INFO - ==================================================
+[ 2025-12-21 11:21:01,020 ] 26 root - INFO - Application Run Started
+[ 2025-12-21 11:21:01,020 ] 27 root - INFO - ==================================================
+[ 2025-12-21 11:21:01,020 ] 6 root - INFO - Starting the application
+[ 2025-12-21 11:21:01,020 ] 8 root - INFO - Step 1: Initializing application
+[ 2025-12-21 11:21:01,020 ] 12 root - INFO - Step 2: Performing operation: x=5, y=10
+[ 2025-12-21 11:21:01,020 ] 15 root - INFO - Step 3: Operation result: 15
+[ 2025-12-21 11:21:01,020 ] 18 root - INFO - Step 4: Result 15 is greater than 10
+[ 2025-12-21 11:21:01,020 ] 31 root - INFO - Application completed successfully
+[ 2025-12-21 11:21:01,020 ] 35 root - INFO - ==================================================
+[ 2025-12-21 11:21:01,020 ] 36 root - INFO - Application execution has ended
+[ 2025-12-21 11:21:01,020 ] 37 root - INFO - ==================================================
