@@ -15,4 +15,4 @@ python3 template.py
 
 1. dvc init
 2. dvc add ./artifacts/data_ingestion/raw.csv
-3. 
+3. dvc status
