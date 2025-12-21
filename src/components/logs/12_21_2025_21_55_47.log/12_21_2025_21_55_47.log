@@ -1,0 +1,8 @@
+[ 2025-12-21 21:56:15,496 ] 23 root - INFO - Data Ingestion started
+[ 2025-12-21 21:56:15,496 ] 25 root - INFO - Start reading the dataset from local source using Pandas
+[ 2025-12-21 21:56:15,497 ] 43 root - INFO - Error occurred in data ingestion stage
+[ 2025-12-21 21:56:15,497 ] 48 root - ERROR - 
+Error occured in Pytthon script:
+-> File name: /Users/nafiz/Desktop/MLOps/Data & Pipeline Versioning/mlops-code-structure/src/components/./data_ingestion.py
+-> Line number: 26
+-> Error massage: [Errno 2] No such file or directory: 'data-source/adult.csv'
