@@ -1,0 +1,53 @@
+[ 2025-12-23 12:23:43,889 ] 22 root - INFO - Data Ingesion has been started
+[ 2025-12-23 12:23:43,889 ] 24 root - INFO - Data reading using Pandas from local file system
+[ 2025-12-23 12:23:43,896 ] 26 root - INFO - Data Reading has been completed
+[ 2025-12-23 12:23:43,928 ] 30 root - INFO - Raw data has been stored
+[ 2025-12-23 12:23:43,931 ] 33 root - INFO - Raw data has been splitted into Train and Test set
+[ 2025-12-23 12:23:43,962 ] 38 root - INFO - Data Ingestion has been completed!
+[ 2025-12-23 12:23:43,962 ] 49 root - INFO - Created feature store configuration at /Users/nafiz/Desktop/MLOps Course/Data and Pipeline Versioning/mlops-project-structure/feature_repo/feature_store.yaml
+[ 2025-12-23 12:23:43,962 ] 53 root - INFO - Configuration file content:
+project: income_prediction
+provider: local
+registry: data/registry.db
+online_store:
+  type: sqlite
+offline_store:
+  type: file
+entity_key_serialization_version: 2
+[ 2025-12-23 12:23:44,161 ] 57 root - INFO - Feature store initialized successfully
+[ 2025-12-23 12:23:44,167 ] 110 root - INFO - Read train and test data completed
+[ 2025-12-23 12:23:44,167 ] 111 root - INFO - Obtaining preprocessing object
+[ 2025-12-23 12:23:44,167 ] 65 root - INFO - Data Transformation Started
+[ 2025-12-23 12:23:44,167 ] 126 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2025-12-23 12:23:44,180 ] 131 root - INFO - Starting feature store operations
+[ 2025-12-23 12:23:44,197 ] 176 root - INFO - Saved feature data to feature_repo/data/train_features.parquet
+[ 2025-12-23 12:23:44,198 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,198 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,205 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,205 ] 215 root - INFO - Applied entity and feature view for train
+[ 2025-12-23 12:23:44,205 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:44,206 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,674 ] 222 root - INFO - Materialized features successfully
+[ 2025-12-23 12:23:45,674 ] 135 root - INFO - Pushed training data to feature store
+[ 2025-12-23 12:23:45,676 ] 176 root - INFO - Saved feature data to feature_repo/data/test_features.parquet
+[ 2025-12-23 12:23:45,676 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,677 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,677 ] 215 root - INFO - Applied entity and feature view for test
+[ 2025-12-23 12:23:45,677 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:45,678 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:46,739 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:46,739 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:46,739 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:46,739 ] 997 feast.infra.registry.registry - INFO - Registry cache expired, so refreshing
+[ 2025-12-23 12:23:47,095 ] 222 root - INFO - Materialized features successfully
+[ 2025-12-23 12:23:47,095 ] 138 root - INFO - Pushed testing data to feature store

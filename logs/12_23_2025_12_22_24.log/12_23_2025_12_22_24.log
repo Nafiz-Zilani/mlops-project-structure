@@ -1,0 +1,8 @@
+[ 2025-12-23 12:22:25,697 ] 22 root - INFO - Data Ingesion has been started
+[ 2025-12-23 12:22:25,697 ] 24 root - INFO - Data reading using Pandas from local file system
+[ 2025-12-23 12:22:25,698 ] 44 root - INFO - Error occured in data ingestion stage
+[ 2025-12-23 12:22:25,698 ] 48 root - ERROR - 
+Error occured in Pytthon script:
+-> File name: /Users/nafiz/Desktop/MLOps Course/Data and Pipeline Versioning/mlops-project-structure/src/components/data_ingestion.py
+-> Line number: 25
+-> Error massage: [Errno 2] No such file or directory: 'data-source/income_cleandata.csv'
