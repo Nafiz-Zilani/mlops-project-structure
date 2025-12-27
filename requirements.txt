@@ -7,3 +7,4 @@ kagglehub
 dvc
 kaggle
 feast
+mlflow
