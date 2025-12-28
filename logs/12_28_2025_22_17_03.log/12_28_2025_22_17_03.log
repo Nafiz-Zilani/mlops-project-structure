@@ -1,0 +1,4 @@
+[ 2025-12-28 22:17:03,917 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 22:17:03,922 ] 97 werkzeug - INFO -  * Debugger PIN: 391-099-373
+[ 2025-12-28 22:17:05,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 22:17:05] "POST /predict HTTP/1.1" 200 -
+[ 2025-12-28 22:17:43,149 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 22:17:43] "POST /predict HTTP/1.1" 200 -

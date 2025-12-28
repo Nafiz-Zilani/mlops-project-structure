@@ -1,0 +1,4 @@
+[ 2025-12-28 22:15:32,525 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-12-28 22:15:32,530 ] 97 werkzeug - INFO -  * Debugger PIN: 391-099-373
+[ 2025-12-28 22:16:33,726 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Dec/2025 22:16:33] "POST /predict HTTP/1.1" 200 -
+[ 2025-12-28 22:17:00,974 ] 97 werkzeug - INFO -  * Detected change in '/Users/nafiz/Desktop/MLOps/Data & Pipeline Versioning/mlops-code-structure/app-test-request.py', reloading
